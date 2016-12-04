@@ -1,16 +1,30 @@
 {
+	"join": {
+		"alias": [ "join, Join" ],
+		"endpoint": "#",
+		"help": "join [name]",
+		"description": "Usage: 'join bowei' to add a carpool trip to your tab, lowercase only"
+	},
+	
+	"owe": {
+		"alias": [ "owe" ],
+		"endpoint": "#",
+		"help": "owe [amount] from [name]",
+		"description": "Usage: 'owe 42.24 from bowei' to add debt to Mike, lowercase only"
+	},
+	
+	"debts": {
+		"alias": [ "debts", "how much do we owe mike?", "debt" ],
+		"endpoint": "#",
+		"help": "debts",
+		"description": "Usage: 'debts' to list debts"
+	},
+	
 	"help": {
 		"alias": [ "halp" ],
 		"endpoint": "#",
 		"help": "help [command](optional)",
 		"description": "To get help on all supported commands, or a specified command"
-	},
-
-	"gem": {
-		"alias": [],
-		"endpoint": "https://rubygems.org/api/v1/gems/{gem}.json",
-		"help": "gem [gem-name]",
-		"description": "Fetches details of the specified Ruby gem"
 	},
 
 	"error": {
